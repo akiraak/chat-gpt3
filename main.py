@@ -12,7 +12,6 @@ if __name__ == '__main__':
 You: こんにちは、あなたは誰ですか？
 AI: 私はOpenAIによって作られた人工知能です。今日はどうされますか？"""
 
-    i = 0
     while True:
         question = input("You: ")
         prompt_text += "You: {}\n".format(question)
